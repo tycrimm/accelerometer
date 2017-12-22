@@ -1,0 +1,41 @@
+* {
+	text-align: center;
+}
+
+svg {
+	margin: 10px;
+	font: 10px sans-serif;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	stroke: none;
+}
+
+.axis .tick {
+	stroke: black;
+	stroke-width: 1;
+}
+
+.axis path {
+	fill: none;
+	stroke: black;
+	stroke-width: 1;
+}
+
+.midline {
+	stroke: lightgray;
+	stroke-width: 1;	
+}
+
+path {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
+
+#toggleButton {
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+}
